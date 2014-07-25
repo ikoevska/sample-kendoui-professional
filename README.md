@@ -112,9 +112,16 @@ Before running this app, make sure to install the Kendo UI Professional framewor
 ### Install Kendo UI Professional from the AppBuilder command-line interface
 
 1. Clone the sample in the client.
-1. From the [Kendo UI web page], download Kendo UI Professional.
-1. Unpack the archive inside the sample.
-1. Update references in `index.html`.
+1. In the command prompt, navigate to the project directory.
+1. Run the following command.
+
+	```bash
+	$ appbuilder update-kendoui
+	```
+
+	The {{site.ab-cli}} lists the available {{site.kendo-mobile}} and {{site.kendo-dataviz}} framework packages.
+1. Enter the index of the package that you want to use and press `Enter`.
+1. Press `y` to confirm and press `Enter`.
 1. Run the app in the device simulator or on device.<br/>For more information about running apps, see [Running Your App].
 
 ## License
